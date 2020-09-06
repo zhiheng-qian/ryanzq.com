@@ -12,11 +12,10 @@ site-twitter: #if your site has a twitter account, enter it here
 author: Ryan # add your name
 author-img: ryan-qian.png # add your photo
 about-author: Just a dev ...?
-social-twitter: # add your Twitter handle
-social-facebook: # add your Facebook handle
+social-twitter: Zhiheng_Qian # add your Twitter handle
 social-github: zhiheng-qian # add your Github handle
-social-linkedin: # add your Linkedin handle
-social-email: # add your Email address
+social-linkedin: zhiheng-qian # add your Linkedin handle
+social-email: zhiheng.qian@hotmail.com # add your Email address
 
 # Disqus
 discus-identifier: mr-brown # add your discus identifier
