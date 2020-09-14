@@ -1,2 +1,2 @@
 # ryanzq.com 
-Personal [blog](ryanzq.com)
+Personal [blog](www.ryanzq.com)
