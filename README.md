@@ -1,2 +1,2 @@
-# ryanzq.com
+# ryanzq.com (ryanzq.com)
 Personal blog
