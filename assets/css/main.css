@@ -1479,3 +1479,7 @@ a.newer-posts:hover {
     font-size: 21px;
   }
 }
+
+.fa-tags {
+  color: #0f4c81;
+}
