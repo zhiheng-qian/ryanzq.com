@@ -2,13 +2,13 @@
 <html lang="en">
 <head>
 	<meta charset="utf-8">
-	<title>What is ConcurrentModificationException and how to deal with it. - ryanzq</title>
+	<title>What is ConcurrentModificationException and how to deal with it? - ryanzq</title>
 
   <!-- Edit site and author settings in `_config.yml` to make the social details your own -->
 
     <meta content="ryanzq" property="og:site_name">
   
-    <meta content="What is ConcurrentModificationException and how to deal with it." property="og:title">
+    <meta content="What is ConcurrentModificationException and how to deal with it?" property="og:title">
   
   
     <meta content="article" property="og:type">
@@ -39,7 +39,7 @@
     <meta name="twitter:site" content="@">
     <meta name="twitter:creator" content="@Zhiheng_Qian">
   
-    <meta name="twitter:title" content="What is ConcurrentModificationException and how to deal with it.">
+    <meta name="twitter:title" content="What is ConcurrentModificationException and how to deal with it?">
   
   
     <meta name="twitter:url" content="http://localhost:4000/What-is-ConcurrentModificationException-and-how-to-deal-with-it/">
@@ -118,14 +118,14 @@
     
     <div class="page-cover-image">
       <figure>
-        <img class="page-image" src=/assets/img/java-cme.png alt="What is ConcurrentModificationException and how to deal with it.">
+        <img class="page-image" src=/assets/img/java-cme.png alt="What is ConcurrentModificationException and how to deal with it?">
         
       </figure>
     </div> <!-- End Page Cover Image -->
     
     <div class="wrap-content">
       <header class="header-page">
-        <h1 class="page-title">What is ConcurrentModificationException and how to deal with it.</h1>
+        <h1 class="page-title">What is ConcurrentModificationException and how to deal with it?</h1>
         <div class="page-date"><span>2020, Sep 22&nbsp;&nbsp;&nbsp;&nbsp;</span></div>
       </header>
       <p>In my recent development work of implementing LDAP user synchronization, one of the features is to check if there are any inactive users so then to remove them from LDAP server. A code snippet looks like this:</p>
@@ -159,11 +159,18 @@
 
 <p>As in Javadoc, it states that the iterators returned by this class’s {@link #iterator() iterator} and methods are <em>fail-fast</em>: if the list is structurally modified at any time after the iterator is created, in any way except through the iterator’s own {@link ListIterator#remove() remove} or {@link ListIterator#add(Object) add} methods, the iterator will throw a {@link ConcurrentModificationException}.  Thus, in the face of concurrent modification, the iterator fails quickly and cleanly, rather than risking arbitrary, non-deterministic behavior at an undetermined time in the future.</p>
 
-<p>unfinished…</p>
+<p>You’ll find this post in your <code class="language-plaintext highlighter-rouge">_posts</code> directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run <code class="language-plaintext highlighter-rouge">jekyll serve</code>, which launches a web server and auto-regenerates your site when a file is updated.</p>
+
+<p>To add new posts, simply add a file in the <code class="language-plaintext highlighter-rouge">_posts</code> directory that follows the convention <code class="language-plaintext highlighter-rouge">YYYY-MM-DD-name-of-post.ext</code> and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works.</p>
+
+<p>Jekyll also offers powerful support for code snippets:</p>
+
+<p>Check out the <a href="https://jekyllrb.com/docs/home">Jekyll docs</a> for more info on how to get the most out of Jekyll. File all bugs/feature requests at <a href="https://github.com/jekyll/jekyll">Jekyll’s GitHub repo</a>. If you have questions, you can ask them on <a href="https://talk.jekyllrb.com/">Jekyll Talk</a>.</p>
+
 
       <div class="page-footer">
         <div class="page-share">
-          <a href="https://twitter.com/intent/tweet?text=What is ConcurrentModificationException and how to deal with it.&url=http://localhost:4000/What-is-ConcurrentModificationException-and-how-to-deal-with-it/" title="Share on Twitter" rel="nofollow" target="_blank">Twitter</a>
+          <a href="https://twitter.com/intent/tweet?text=What is ConcurrentModificationException and how to deal with it?&url=http://localhost:4000/What-is-ConcurrentModificationException-and-how-to-deal-with-it/" title="Share on Twitter" rel="nofollow" target="_blank">Twitter</a>
         </div>
         <div class="page-tag">
           
